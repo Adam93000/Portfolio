@@ -1,41 +1,5 @@
+import { TbRefresh, TbChecklist } from 'react-icons/tb';
 import SectionHeader from '../../common/SectionHeader';
-
-const RefreshCwIcon = () => (
-  <svg
-    aria-hidden="true"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="size-5 text-brand"
-  >
-    <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
-    <path d="M21 3v5h-5" />
-    <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
-    <path d="M8 16H3v5" />
-  </svg>
-);
-
-const CheckListIcon = () => (
-  <svg
-    aria-hidden="true"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="size-5 text-brand"
-  >
-    <path d="m3 16 2 2 4-4" />
-    <path d="m3 9 2 2 4-4" />
-    <path d="M13 6h8" />
-    <path d="M13 12h8" />
-    <path d="M13 18h8" />
-  </svg>
-);
 
 export default function AboutPitch() {
   return (
@@ -74,7 +38,7 @@ export default function AboutPitch() {
         <div className="flex flex-col gap-6 lg:col-span-5">
           <div className="flex flex-col gap-3 rounded-xl border border-line bg-surface p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <RefreshCwIcon />
+              <TbRefresh className="size-5 text-brand" />
               <h3 className="font-mono text-base font-bold text-ink">
                 Agile dans la méthode
               </h3>
@@ -87,7 +51,7 @@ export default function AboutPitch() {
 
           <div className="flex flex-col gap-3 rounded-xl border border-line bg-surface p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <CheckListIcon />
+              <TbChecklist className="size-5 text-brand" />
               <h3 className="font-mono text-base font-bold text-ink">
                 Rigoureux dans le détail
               </h3>
