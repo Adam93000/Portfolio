@@ -13,8 +13,8 @@
   --color-line: #2d3b50;
   --color-surface: #131b27;
   --color-chip: #192435;
-  /* Fond de page : valeur provisoire, à confirmer avec la maquette */
-  --color-page: #0b121c;
+  /* Fond de page : pipette sur le screenshot de la section Hero */
+  --color-page: #0c1017;
 }
 
 @layer base {

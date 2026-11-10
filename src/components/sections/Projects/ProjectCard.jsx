@@ -19,7 +19,7 @@ export default function ProjectCard({ project }) {
     const { title, coverImage, tags, content, links } = project;
 
     return (
-        <article className="flex flex-col overflow-hidden rounded-xl border border-line bg-surface">
+        <article className="flex h-full flex-col overflow-hidden rounded-xl border border-line bg-surface">
 
             {/* Mockup d'interface */}
             <div className="flex h-[254px] flex-col justify-center bg-[#203a57] p-4 lg:p-[26px]">
@@ -37,12 +37,12 @@ export default function ProjectCard({ project }) {
             </div>
 
             {/* Présentation du projet */}
-            <div className="flex flex-col gap-5 p-5 lg:p-7">
+            <div className="flex flex-1 flex-col gap-5 p-5 xl:p-7">
                 <p className="font-mono text-[11px] tracking-[0.0455em] text-accent">
                     PROJET PÉDAGOGIQUE · FORMATION
                 </p>
 
-                <h3 className="font-mono text-[25px] leading-[1.35] font-bold tracking-[-0.036em] text-ink">
+                <h3 className="font-mono text-[22px] leading-[1.35] xl:text-[25px] font-bold tracking-[-0.036em] text-ink">
                     {title}
                 </h3>
 
@@ -66,7 +66,7 @@ export default function ProjectCard({ project }) {
                     {content.objectives}
                 </p>
 
-                <div className="flex gap-7 border-t border-line pt-2">
+                <div className="mt-auto flex flex-wrap gap-x-6 border-t border-line pt-2">
                     <a href={links.github} target="_blank" rel="noopener noreferrer" className={linkClass}>
                         <GithubIcon />
                         GitHub
