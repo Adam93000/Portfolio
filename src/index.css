@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Tokens issus de la maquette Figma */
+  --color-brand: #86acff;
+  --color-accent: #baf78d;
+  --color-accent-ink: #102016;
+  --color-ink: #f3f6fc;
+  --color-muted: #bcc7d8;
+  --color-line: #2d3b50;
+  --color-surface: #131b27;
+  --color-chip: #192435;
+  /* Fond de page : valeur provisoire, à confirmer avec la maquette */
+  --color-page: #0b121c;
+}
+
+@layer base {
+  body {
+    @apply bg-page font-sans text-muted antialiased;
+  }
+}

@@ -1,60 +1,80 @@
+const GithubIcon = () => (
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-[18px]">
+        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4" />
+        <path d="M9 18c-4.51 2-5-2-7-2" />
+    </svg>
+);
+
+const ExternalIcon = () => (
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-[18px]">
+        <path d="M7 17 17 7" />
+        <path d="M7 7h10v10" />
+    </svg>
+);
+
+const linkClass =
+    "flex h-11 items-center gap-2 font-sans text-sm font-semibold text-brand underline underline-offset-4 transition-colors hover:text-ink";
+
 export default function ProjectCard({ project }) {
-    const { title, subtitle, coverImage, tags, content, links } = project;
+    const { title, coverImage, tags, content, links } = project;
 
     return (
-        <article className="bg-slate-800 rounded-xl overflow-hidden shadow-lg flex flex-col transition-transform duration-300 hover:-translate-y-2 hover:shadow-2xl">
+        <article className="flex flex-col overflow-hidden rounded-xl border border-line bg-surface">
 
-            {/* En-tête avec l'image */}
-            <div className="h-48 w-full bg-slate-700">
-                <img
-                    src={coverImage}
-                    alt={`Aperçu du projet ${title}`}
-                    className="w-full h-full object-cover"
-                />
+            {/* Mockup d'interface */}
+            <div className="flex h-[254px] flex-col justify-center bg-[#203a57] p-4 lg:p-[26px]">
+                <div className="flex flex-col overflow-hidden rounded-md bg-[#fafaf9] shadow-[0_12px_24px_rgba(0,0,0,0.2)]">
+                    <div className="flex h-[26px] items-center justify-between bg-[#e6e9ed] px-3 font-mono text-[8px] text-[#4c5762]">
+                        <span aria-hidden="true">● ● ●</span>
+                        <span>APERÇU DU PROJET</span>
+                    </div>
+                    <img
+                        src={coverImage}
+                        alt={`Aperçu du projet ${title}`}
+                        className="h-[160px] w-full object-cover"
+                    />
+                </div>
             </div>
 
-            {/* Corps de la carte */}
-            <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-2xl font-bold text-white mb-1">{title}</h3>
-                <h4 className="text-blue-400 text-sm font-semibold mb-4">{subtitle}</h4>
+            {/* Présentation du projet */}
+            <div className="flex flex-col gap-5 p-5 lg:p-7">
+                <p className="font-mono text-[11px] tracking-[0.0455em] text-accent">
+                    PROJET PÉDAGOGIQUE · FORMATION
+                </p>
 
-                {/* Badges pour les technos */}
-                <ul className="flex flex-wrap gap-2 mb-6">
-                    {tags.map((tag, index) => (
-                        <li key={index} className="bg-slate-700 text-slate-200 text-xs px-3 py-1 rounded-full">
+                <h3 className="font-mono text-[25px] leading-[1.35] font-bold tracking-[-0.036em] text-ink">
+                    {title}
+                </h3>
+
+                <ul className="flex flex-wrap gap-2">
+                    {tags.map((tag) => (
+                        <li
+                            key={tag}
+                            className="rounded-md bg-chip px-2.5 py-[7px] font-mono text-xs text-muted"
+                        >
                             {tag}
                         </li>
                     ))}
                 </ul>
 
-                {/* Les 6 points clés du projet */}
-                <div className="text-slate-300 text-sm space-y-3 mb-8 flex-grow">
-                    <p><strong className="text-white">Contexte :</strong> {content.context}</p>
-                    <p><strong className="text-white">Objectifs :</strong> {content.objectives}</p>
-                    <p><strong className="text-white">Stack :</strong> {content.stack}</p>
-                    <p><strong className="text-white">Compétences :</strong> {content.skills}</p>
-                    <p><strong className="text-white">Résultats :</strong> {content.results}</p>
-                    <p><strong className="text-white">Améliorations :</strong> {content.improvements}</p>
-                </div>
+                <p className="font-sans text-[15px] leading-[1.75] text-muted">
+                    {content.context}
+                </p>
 
-                {/* Boutons de redirection */}
-                <div className="flex gap-4 mt-auto">
-                    <a
-                        href={links.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-slate-700 hover:bg-slate-600 text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors"
-                    >
-                        Code GitHub
+                <p className="font-sans text-[15px] leading-[1.75] text-muted">
+                    <strong className="font-semibold text-ink">Axes de travail : </strong>
+                    {content.objectives}
+                </p>
+
+                <div className="flex gap-7 border-t border-line pt-2">
+                    <a href={links.github} target="_blank" rel="noopener noreferrer" className={linkClass}>
+                        <GithubIcon />
+                        GitHub
                     </a>
                     {links.demo && (
-                        <a
-                            href={links.demo}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors"
-                        >
-                            Voir le site
+                        <a href={links.demo} target="_blank" rel="noopener noreferrer" className={linkClass}>
+                            Live Demo
+                            <ExternalIcon />
                         </a>
                     )}
                 </div>
