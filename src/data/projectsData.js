@@ -14,8 +14,8 @@ export const projectsData = [
             improvements: "Intégration d'un outil de gestion d'état global comme Redux pour préparer un passage à l'échelle."
         },
         links: {
-            github: "https://github.com/Adam93000/kasa",
-            demo: ""
+            github: "https://github.com/Adam93000/Projet-7-OpenClassrooms",
+            demo: "https://kasaappproject.netlify.app/"
         }
     },
     {
@@ -33,8 +33,8 @@ export const projectsData = [
             improvements: "Mise en place d'une intégration continue (CI/CD) pour exécuter automatiquement les tests Lighthouse à chaque nouvelle mise à jour du code."
         },
         links: {
-            github: "https://github.com/Adam93000/nina-carducci",
-            "demo": ""
+            github: "https://github.com/Adam93000/Projet-8-OpenClassrooms",
+            "demo": "https://adam93000.github.io/Projet-8-OpenClassrooms/"
         }
     },
     {
@@ -52,8 +52,8 @@ export const projectsData = [
             improvements: "Mettre en place des tests End-to-End (E2E) avec Cypress pour simuler le parcours complet d'un utilisateur."
         },
         links: {
-            github: "https://github.com/Adam93000/724events",
-            demo: ""
+            github: "https://github.com/Adam93000/Projet-9-OpenClassrooms",
+            demo: "https://glittering-macaron-3385d0.netlify.app/"
         }
     }
 ];

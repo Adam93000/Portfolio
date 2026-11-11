@@ -48,7 +48,7 @@ export default function ContactForm() {
           placeholder="Votre nom"
           value={formData.name}
           onChange={handleChange}
-          className="h-12 w-full rounded-lg border border-line bg-[#0c1017] px-4 font-sans text-sm text-ink placeholder:text-muted/40 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+          className="h-12 w-full rounded-lg border border-line bg-page px-4 font-sans text-sm text-ink placeholder:text-muted/40 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
         />
       </div>
 
@@ -68,7 +68,7 @@ export default function ContactForm() {
           placeholder="Votre adresse email"
           value={formData.email}
           onChange={handleChange}
-          className="h-12 w-full rounded-lg border border-line bg-[#0c1017] px-4 font-sans text-sm text-ink placeholder:text-muted/40 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+          className="h-12 w-full rounded-lg border border-line bg-page px-4 font-sans text-sm text-ink placeholder:text-muted/40 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
         />
       </div>
 
@@ -88,7 +88,7 @@ export default function ContactForm() {
           placeholder="Votre projet, votre question..."
           value={formData.message}
           onChange={handleChange}
-          className="w-full resize-none rounded-lg border border-line bg-[#0c1017] p-4 font-sans text-sm text-ink placeholder:text-muted/40 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+          className="w-full resize-none rounded-lg border border-line bg-page p-4 font-sans text-sm text-ink placeholder:text-muted/40 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
         />
       </div>
 
