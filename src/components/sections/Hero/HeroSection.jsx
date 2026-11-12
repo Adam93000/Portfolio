@@ -33,7 +33,7 @@ export default function HeroSection() {
           <FiArrowDown className="size-5" />
         </a>
         <a
-          href="/cv.pdf"
+          href="/CV_AdamMoskatelo.pdf"
           download
           className={`${buttonBase} border-line bg-surface text-ink`}
         >

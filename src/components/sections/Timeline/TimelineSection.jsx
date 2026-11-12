@@ -7,8 +7,8 @@ const timelineSteps = [
     phase: 'Avant le développement',
     title: 'Expériences professionnelles antérieures',
     description:
-      'Un parcours à présenter pour mettre en lumière les compétences transférables vers le développement web.',
-    meta: 'Métiers, structures et périodes à personnaliser',
+      'Un parcours exigeant rigueur, gestion des priorités et sens du service client, des compétences transversales aujourd\'hui essentielles pour le développement web.',
+    meta: 'Préparateur de commandes (Intermarché Lattes) & Réceptionniste (Split) • Jusqu\'en août 2026.',
     isCurrent: false,
   },
   {
@@ -17,7 +17,7 @@ const timelineSteps = [
     title: 'Formation d’intégrateur web',
     description:
       'Intégration responsive, JavaScript, React, accessibilité et SEO : des apprentissages mis en pratique dans des projets pédagogiques.',
-    meta: 'Dates et établissement à personnaliser',
+    meta: 'OpenClassrooms • Titre RNCP de niveau 5 (Bac+2) • Nov. 2025 à Nov. 2026.',
     isCurrent: false,
   },
   {
@@ -26,7 +26,7 @@ const timelineSteps = [
     title: 'Construire la suite en Front-End',
     description:
       'Consolider mes bases, enrichir mes projets React et rejoindre une équipe pour continuer à apprendre au contact de développeurs expérimentés.',
-    meta: 'Objectif : une première opportunité en React',
+    meta: 'Objectif : Poste de Développeur Front-End Junior (Split / Full-remote).',
     isCurrent: true,
   },
 ];

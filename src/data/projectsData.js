@@ -1,9 +1,13 @@
+import kasaMockup from '../assets/images/kasa-mockup.webp';
+import ninaMockup from '../assets/images/nina-mockup.webp';
+import eventsMockup from '../assets/images/724events-mockup.webp';
+
 export const projectsData = [
     {
         id: "kasa-01",
         title: "Kasa",
         subtitle: "Application React de location d'appartements",
-        coverImage: "/assets/kasa-mockup.png",
+        coverImage: kasaMockup,
         tags: ["React", "React Router", "Sass"],
         content: {
             context: "Refonte totale du front-end d'une plateforme de location d'appartements entre particuliers, impliquant le passage d'une ancienne codebase obsolète vers une stack moderne.",
@@ -22,7 +26,7 @@ export const projectsData = [
         id: "nina-02",
         title: "Nina Carducci",
         subtitle: "Optimisation SEO et Accessibilité",
-        coverImage: "/assets/nina-mockup.png",
+        coverImage: ninaMockup,
         tags: ["SEO", "Accessibilité", "Performance", "Lighthouse"],
         content: {
             context: "Intervention sur le site vitrine d'une photographe indépendante qui souffrait de temps de chargement longs et d'un manque de visibilité sur les moteurs de recherche.",
@@ -34,14 +38,14 @@ export const projectsData = [
         },
         links: {
             github: "https://github.com/Adam93000/Projet-8-OpenClassrooms",
-            "demo": "https://adam93000.github.io/Projet-8-OpenClassrooms/"
+            demo: "https://adam93000.github.io/Projet-8-OpenClassrooms/"
         }
     },
     {
         id: "724events-03",
         title: "724events",
         subtitle: "Débogage et tests d'une application React",
-        coverImage: "/assets/724events-mockup.png",
+        coverImage: eventsMockup,
         tags: ["React", "Jest", "React Testing Library", "Débogage"],
         content: {
             context: "Le site vitrine d'une agence d'événementiel (724events) présentait des bugs bloquants au niveau de son slider, de ses filtres et de son formulaire, juste avant sa mise en production.",
