@@ -4,7 +4,7 @@ const linkClass =
     "flex h-11 items-center gap-2 font-sans text-sm font-semibold text-brand underline underline-offset-4 transition-colors hover:text-ink";
 
 export default function ProjectCard({ project }) {
-    const { title, coverImage, tags, content, links } = project;
+    const { title, coverImage, imageAlt, tags, content, links } = project;
 
     return (
         <article className="flex h-full flex-col overflow-hidden rounded-xl border border-line bg-surface">
@@ -18,7 +18,8 @@ export default function ProjectCard({ project }) {
                     </div>
                     <img
                         src={coverImage}
-                        alt={`Aperçu du projet ${title}`}
+                        alt={imageAlt || `Aperçu du projet ${title}`}
+                        loading="lazy"
                         className="h-[160px] w-full object-cover"
                     />
                 </div>

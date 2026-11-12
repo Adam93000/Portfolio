@@ -8,6 +8,7 @@ export const projectsData = [
         title: "Kasa",
         subtitle: "Application React de location d'appartements",
         coverImage: kasaMockup,
+        imageAlt: "Capture d'écran de l'application web Kasa montrant la page d'accueil avec sa bannière et la galerie de logements en location",
         tags: ["React", "React Router", "Sass"],
         content: {
             context: "Refonte totale du front-end d'une plateforme de location d'appartements entre particuliers, impliquant le passage d'une ancienne codebase obsolète vers une stack moderne.",
@@ -27,6 +28,7 @@ export const projectsData = [
         title: "Nina Carducci",
         subtitle: "Optimisation SEO et Accessibilité",
         coverImage: ninaMockup,
+        imageAlt: "Aperçu de l'audit et des performances du site vitrine de Nina Carducci après optimisation SEO et accessibilité",
         tags: ["SEO", "Accessibilité", "Performance", "Lighthouse"],
         content: {
             context: "Intervention sur le site vitrine d'une photographe indépendante qui souffrait de temps de chargement longs et d'un manque de visibilité sur les moteurs de recherche.",
@@ -46,6 +48,7 @@ export const projectsData = [
         title: "724events",
         subtitle: "Débogage et tests d'une application React",
         coverImage: eventsMockup,
+        imageAlt: "Interface de l'application événementielle 724events après correction des bugs et implémentation des tests d'intégration",
         tags: ["React", "Jest", "React Testing Library", "Débogage"],
         content: {
             context: "Le site vitrine d'une agence d'événementiel (724events) présentait des bugs bloquants au niveau de son slider, de ses filtres et de son formulaire, juste avant sa mise en production.",
