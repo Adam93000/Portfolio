@@ -1,5 +1,5 @@
-import { TbRefresh, TbChecklist } from 'react-icons/tb';
-import SectionHeader from '../../common/SectionHeader';
+import { TbRefresh, TbChecklist } from "react-icons/tb";
+import SectionHeader from "../../common/SectionHeader";
 
 export default function AboutPitch() {
   return (
@@ -17,14 +17,14 @@ export default function AboutPitch() {
         {/* Colonne gauche : Présentation & parcours */}
         <div className="flex flex-col gap-6 lg:col-span-7">
           <p className="font-sans text-xl leading-[1.5] text-ink sm:text-2xl">
-            Je suis Adam, développeur Front-End React junior. J’aime transformer un
-            besoin concret en une interface simple à utiliser.
+            Je suis Adam, développeur Front-End React junior. J’aime transformer
+            un besoin concret en une interface simple à utiliser.
           </p>
 
           <p className="font-sans text-base leading-[1.75] text-muted">
             Mon parcours de formation en intégration web m’a amené du HTML et du
-            CSS à la création d’applications React. Les projets pédagogiques sont
-            mon terrain pour pratiquer, me tromper et progresser.
+            CSS à la création d’applications React. Les projets pédagogiques
+            sont mon terrain pour pratiquer, me tromper et progresser.
           </p>
 
           <p className="font-sans text-base leading-[1.75] text-muted">

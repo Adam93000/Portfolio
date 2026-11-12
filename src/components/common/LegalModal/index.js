@@ -1,2 +1,1 @@
-export { default } from './LegalModal';
-
+export { default } from "./LegalModal";

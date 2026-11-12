@@ -1,2 +1,1 @@
-export { default } from './AboutPitch';
-
+export { default } from "./AboutPitch";

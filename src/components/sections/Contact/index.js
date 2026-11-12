@@ -1,4 +1,3 @@
-export { default } from './ContactSection';
-export { default as ContactSection } from './ContactSection';
-export { default as ContactForm } from './ContactForm';
-
+export { default } from "./ContactSection";
+export { default as ContactSection } from "./ContactSection";
+export { default as ContactForm } from "./ContactForm";

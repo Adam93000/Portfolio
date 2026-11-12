@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import { FiSend } from 'react-icons/fi';
+import { useState } from "react";
+import { FiSend } from "react-icons/fi";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -15,10 +15,10 @@ export default function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Soumission simple via mailto ou personnalisable avec un backend / formspree / emailjs
+    // Déclenchement de l'envoi d'email via le client de messagerie par défaut
     const subject = encodeURIComponent(`Contact Portfolio - ${formData.name}`);
     const body = encodeURIComponent(
-      `Nom: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+      `Nom: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`,
     );
     window.location.href = `mailto:moskateloadam@gmail.com?subject=${subject}&body=${body}`;
   };

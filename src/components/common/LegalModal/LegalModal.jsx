@@ -1,19 +1,19 @@
-import { useEffect } from 'react';
-import { FiX } from 'react-icons/fi';
+import { useEffect } from "react";
+import { FiX } from "react-icons/fi";
 
 export default function LegalModal({ isOpen, onClose }) {
   // Fermer la modale avec la touche Échap
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === "Escape") onClose();
     };
     if (isOpen) {
-      window.addEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'hidden';
+      window.addEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "hidden";
     }
     return () => {
-      window.removeEventListener('keydown', handleKeyDown);
-      document.body.style.overflow = 'unset';
+      window.removeEventListener("keydown", handleKeyDown);
+      document.body.style.overflow = "unset";
     };
   }, [isOpen, onClose]);
 
@@ -61,7 +61,7 @@ export default function LegalModal({ isOpen, onClose }) {
                 <strong className="text-ink">Éditeur :</strong> Adam Moskatelo
               </li>
               <li>
-                <strong className="text-ink">Contact :</strong>{' '}
+                <strong className="text-ink">Contact :</strong>{" "}
                 <a
                   href="mailto:moskateloadam@gmail.com"
                   className="text-brand underline underline-offset-4 hover:text-ink"
@@ -70,7 +70,8 @@ export default function LegalModal({ isOpen, onClose }) {
                 </a>
               </li>
               <li>
-                <strong className="text-ink">Localisation :</strong> Dol, Croatie
+                <strong className="text-ink">Localisation :</strong> Dol,
+                Croatie
               </li>
             </ul>
           </section>
@@ -85,7 +86,7 @@ export default function LegalModal({ isOpen, onClose }) {
                 <strong className="text-ink">Hébergeur :</strong> Netlify, Inc.
               </li>
               <li>
-                <strong className="text-ink">Site web :</strong>{' '}
+                <strong className="text-ink">Site web :</strong>{" "}
                 <a
                   href="https://www.netlify.com"
                   target="_blank"
@@ -131,4 +132,3 @@ export default function LegalModal({ isOpen, onClose }) {
     </div>
   );
 }
-

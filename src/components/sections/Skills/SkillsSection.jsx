@@ -1,5 +1,5 @@
-import SectionHeader from '../../common/SectionHeader';
-import SkillsGrid from './SkillsGrid';
+import SectionHeader from "../../common/SectionHeader";
+import SkillsGrid from "./SkillsGrid";
 
 export default function SkillsSection() {
   return (

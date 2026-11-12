@@ -14,7 +14,9 @@ export default function SectionHeader({ number, label, title, intro, icon }) {
       {intro && (
         <div className="flex gap-3">
           {icon && <span className="mt-1 shrink-0 text-brand">{icon}</span>}
-          <p className="font-sans text-base leading-[1.7] text-muted">{intro}</p>
+          <p className="font-sans text-base leading-[1.7] text-muted">
+            {intro}
+          </p>
         </div>
       )}
     </header>

@@ -1,9 +1,9 @@
 const links = [
-  { label: 'À propos', href: '#about' },
-  { label: 'Compétences', href: '#skills' },
-  { label: 'Projets', href: '#projects' },
-  { label: 'Parcours', href: '#timeline' },
-  { label: 'Contact', href: '#contact' },
+  { label: "À propos", href: "#about" },
+  { label: "Compétences", href: "#skills" },
+  { label: "Projets", href: "#projects" },
+  { label: "Parcours", href: "#timeline" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Navigation() {

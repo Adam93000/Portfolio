@@ -1,6 +1,6 @@
-import { TbFolderCode } from 'react-icons/tb';
-import SectionHeader from '../../common/SectionHeader';
-import ProjectGallery from './ProjectGallery';
+import { TbFolderCode } from "react-icons/tb";
+import SectionHeader from "../../common/SectionHeader";
+import ProjectGallery from "./ProjectGallery";
 
 export default function ProjectsSection() {
   return (

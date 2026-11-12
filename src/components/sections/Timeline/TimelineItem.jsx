@@ -21,8 +21,8 @@ export default function TimelineItem({
         aria-hidden="true"
         className={`relative mt-1.5 size-3.5 shrink-0 rounded-full ${
           isCurrent
-            ? 'bg-accent shadow-[0_0_10px_rgba(186,247,141,0.5)]'
-            : 'bg-brand'
+            ? "bg-accent shadow-[0_0_10px_rgba(186,247,141,0.5)]"
+            : "bg-brand"
         }`}
       />
 
@@ -30,7 +30,7 @@ export default function TimelineItem({
       <div className="flex flex-col gap-2">
         <span
           className={`font-mono text-xs uppercase tracking-wider ${
-            isCurrent ? 'text-accent' : 'text-brand'
+            isCurrent ? "text-accent" : "text-brand"
           }`}
         >
           {phase}

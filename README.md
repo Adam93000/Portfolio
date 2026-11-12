@@ -1,50 +1,52 @@
-# Portfolio - Adam Moskatelo
+# 🚀 Portfolio Personnel - Adam Moskatelo
 
-Projet 12 - Parcours Développeur Web / Intégrateur Web OpenClassrooms.
+Bienvenue sur le dépôt de mon portfolio de développeur Front-End React. Ce projet constitue le livrable final (Projet 12) de ma formation d'Intégrateur Web (Titre RNCP de niveau 5). Il a pour but de présenter mon profil, mes compétences techniques et mes réalisations.
 
-## Architecture du projet
+🌍 **Lien en direct :** [https://portfoliomoskateloadam.netlify.app/](https://portfoliomoskateloadam.netlify.app/)
 
-L'arborescence et les composants ont été déduits directement de la maquette Figma officielle du projet :
+## 🛠️ Stack Technique
 
-```text
-src/
-├── assets/
-│   ├── icons/
-│   └── images/
-├── components/
-│   ├── common/             # Composants d'interface génériques (SectionHeader, Button, Badge)
-│   ├── layout/             # Éléments structurants globaux (Header, Navigation, Footer)
-│   └── sections/           # Sections identifiées depuis la maquette Figma
-│       ├── Hero/           # Présentation et proposition de valeur
-│       ├── About/          # Pitch et démarche
-│       ├── Skills/         # Grille de compétences techniques et outils
-│       ├── Projects/       # Galerie de réalisations (ProjectCard, liens GitHub & Live)
-│       ├── Timeline/       # Frise chronologique (Parcours & formations)
-│       └── Contact/        # Formulaire de contact et liens réseaux
-├── pages/
-│   └── Home/               # Page principale assemblant les sections
-├── styles/
-│   ├── variables.css       # Variables CSS (couleurs, polices, tokens Figma)
-│   └── global.css          # Reset et styles de base
-├── App.jsx
-├── main.jsx
-└── index.css
-```
+Ce projet a été développé avec une stack moderne et optimisée pour les performances :
 
-## Démarrage rapide
+*   **React (JavaScript / ES6+)** : Création de composants UI réutilisables.
+*   **Tailwind CSS (v4)** : Stylisation "Utility-first" pour un design sur-mesure et responsive.
+*   **Vite** : Outil de build ultra-rapide pour un développement fluide.
+*   **Netlify** : Déploiement continu et hébergement.
 
-1. Installer les dépendances :
-   ```bash
-   npm install
-   ```
+## ✨ Fonctionnalités & Optimisations
 
-2. Lancer le serveur de développement :
-   ```bash
-   npm run dev
-   ```
+*   **Architecture One-Page :** Navigation fluide et expérience utilisateur (UX) optimale.
+*   **Responsive Design (Mobile-First) :** Interface parfaitement adaptée aux écrans mobiles, tablettes et ordinateurs de bureau.
+*   **Performances & SEO :** Audit Lighthouse validé avec des scores d'excellence (99+ en Performance, 96+ en Accessibilité, 100 en SEO).
+*   **Intégration de documents :** Téléchargement direct du CV au format PDF.
+*   **Conformité légale :** Intégration des mentions légales obligatoires.
 
-3. Construire le projet pour la production :
-   ```bash
-   npm run build
-   ```
+## ⚙️ Installation et exécution en local
 
+1.  **Cloner le dépôt :**
+    ```bash
+    git clone [https://github.com/adam93000/portfolio.git](https://github.com/adam93000/portfolio.git)
+    ```
+
+2.  **Accéder au dossier généré par le clonage :**
+    ```bash
+    cd portfolio
+    ```
+
+3.  **Installer les dépendances :**
+    ```bash
+    npm install
+    ```
+
+4.  **Lancer le serveur de développement :**
+    ```bash
+    npm run dev
+    ```
+
+## 📬 Contact & Informations
+
+**Adam Moskatelo**  
+Développeur Front-End Junior basé à Split, Croatie.
+
+*   **Email :** [moskateloadam@gmail.com](mailto:moskateloadam@gmail.com)
+*   **GitHub :** [@adam93000](https://github.com/adam93000)

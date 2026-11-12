@@ -1,6 +1,11 @@
-import { FiGithub, FiLinkedin, FiArrowUpRight, FiMessageSquare } from 'react-icons/fi';
-import SectionHeader from '../../common/SectionHeader';
-import ContactForm from './ContactForm';
+import {
+  FiGithub,
+  FiLinkedin,
+  FiArrowUpRight,
+  FiMessageSquare,
+} from "react-icons/fi";
+import SectionHeader from "../../common/SectionHeader";
+import ContactForm from "./ContactForm";
 
 export default function ContactSection() {
   return (

@@ -1,4 +1,4 @@
-import { FiArrowDown, FiDownload } from 'react-icons/fi';
+import { FiArrowDown, FiDownload } from "react-icons/fi";
 
 const buttonBase =
   "flex h-13 items-center justify-center gap-3 rounded-md border px-5 font-sans text-[15px] font-semibold transition-opacity hover:opacity-90";
@@ -15,7 +15,7 @@ export default function HeroSection() {
       </p>
 
       <h1 className="font-mono text-4xl leading-[1.2] font-bold tracking-[-0.03em] text-ink md:text-5xl lg:text-[56px]">
-        Adam Moskatelo -{' '}
+        Adam Moskatelo -{" "}
         <span className="text-brand">Développeur Front-End React</span>
       </h1>
 

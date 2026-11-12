@@ -1,32 +1,32 @@
-import SectionHeader from '../../common/SectionHeader';
-import TimelineItem from './TimelineItem';
+import SectionHeader from "../../common/SectionHeader";
+import TimelineItem from "./TimelineItem";
 
 const timelineSteps = [
   {
-    id: 'step-1',
-    phase: 'Avant le développement',
-    title: 'Expériences professionnelles antérieures',
+    id: "step-1",
+    phase: "Avant le développement",
+    title: "Expériences professionnelles antérieures",
     description:
-      'Un parcours exigeant rigueur, gestion des priorités et sens du service client, des compétences transversales aujourd\'hui essentielles pour le développement web.',
-    meta: 'Préparateur de commandes (Intermarché Lattes) & Réceptionniste (Split) • Jusqu\'en août 2026.',
+      "Un parcours exigeant rigueur, gestion des priorités et sens du service client, des compétences transversales aujourd'hui essentielles pour le développement web.",
+    meta: "Préparateur de commandes (Intermarché Lattes) & Réceptionniste (Split) • Jusqu'en août 2026.",
     isCurrent: false,
   },
   {
-    id: 'step-2',
-    phase: 'Apprendre par la pratique',
-    title: 'Formation d’intégrateur web',
+    id: "step-2",
+    phase: "Apprendre par la pratique",
+    title: "Formation d’intégrateur web",
     description:
-      'Intégration responsive, JavaScript, React, accessibilité et SEO : des apprentissages mis en pratique dans des projets pédagogiques.',
-    meta: 'OpenClassrooms • Titre RNCP de niveau 5 (Bac+2) • Nov. 2025 à Nov. 2026.',
+      "Intégration responsive, JavaScript, React, accessibilité et SEO : des apprentissages mis en pratique dans des projets pédagogiques.",
+    meta: "OpenClassrooms • Titre RNCP de niveau 5 (Bac+2) • Nov. 2025 à Nov. 2026.",
     isCurrent: false,
   },
   {
-    id: 'step-3',
-    phase: 'Aujourd’hui',
-    title: 'Construire la suite en Front-End',
+    id: "step-3",
+    phase: "Aujourd’hui",
+    title: "Construire la suite en Front-End",
     description:
-      'Consolider mes bases, enrichir mes projets React et rejoindre une équipe pour continuer à apprendre au contact de développeurs expérimentés.',
-    meta: 'Objectif : Poste de Développeur Front-End Junior (Split / Full-remote).',
+      "Consolider mes bases, enrichir mes projets React et rejoindre une équipe pour continuer à apprendre au contact de développeurs expérimentés.",
+    meta: "Objectif : Poste de Développeur Front-End Junior (Split / Full-remote).",
     isCurrent: true,
   },
 ];

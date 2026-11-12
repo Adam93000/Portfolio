@@ -4,7 +4,7 @@
   --font-sans: "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-  /* Tokens issus de la maquette Figma */
+  /* Tokens de couleur du design system */
   --color-brand: #86acff;
   --color-accent: #baf78d;
   --color-accent-ink: #102016;
@@ -13,7 +13,6 @@
   --color-line: #2d3b50;
   --color-surface: #131b27;
   --color-chip: #192435;
-  /* Fond de page : pipette sur le screenshot de la section Hero */
   --color-page: #0c1017;
 }
 

@@ -1,10 +1,10 @@
-import { FiArrowUpRight } from 'react-icons/fi';
-import Navigation from '../Navigation';
+import { FiArrowUpRight } from "react-icons/fi";
+import Navigation from "../Navigation";
 
 export default function Header() {
   return (
     <header className="flex flex-col gap-5 border-b border-line px-6 pt-6 pb-4 md:px-10 lg:h-26 lg:flex-row lg:items-center lg:justify-between lg:px-22 lg:py-0">
-      {/* Mobile : logo + bouton sur une ligne ; desktop : éléments aplatis dans le header */}
+      {/* Disposition mobile : logo et bouton d'action regroupés ; disposition desktop : éléments répartis horizontalement */}
       <div className="flex items-center justify-between lg:contents">
         <a
           href="#hero"
