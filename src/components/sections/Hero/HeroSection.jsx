@@ -30,7 +30,7 @@ export default function HeroSection() {
           className={`${buttonBase} border-accent bg-accent text-accent-ink`}
         >
           Voir mes projets
-          <FiArrowDown className="size-5" />
+          <FiArrowDown aria-hidden="true" className="size-5" />
         </a>
         <a
           href="/CV_AdamMoskatelo.pdf"
@@ -38,7 +38,7 @@ export default function HeroSection() {
           className={`${buttonBase} border-line bg-surface text-ink`}
         >
           Télécharger mon CV
-          <FiDownload className="size-5" />
+          <FiDownload aria-hidden="true" className="size-5" />
         </a>
       </div>
 

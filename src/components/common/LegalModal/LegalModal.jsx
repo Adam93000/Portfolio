@@ -38,7 +38,7 @@ export default function LegalModal({ isOpen, onClose }) {
           aria-label="Fermer les mentions légales"
           className="absolute right-5 top-5 rounded-lg border border-line p-2 text-muted transition-colors hover:border-brand hover:text-ink"
         >
-          <FiX className="size-5" />
+          <FiX aria-hidden="true" className="size-5" />
         </button>
 
         {/* Titre */}

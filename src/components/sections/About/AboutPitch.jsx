@@ -17,20 +17,26 @@ export default function AboutPitch() {
         {/* Colonne gauche : Présentation & parcours */}
         <div className="flex flex-col gap-6 lg:col-span-7">
           <p className="font-sans text-xl leading-[1.5] text-ink sm:text-2xl">
-            Je suis Adam, développeur Front-End React junior. J’aime transformer
-            un besoin concret en une interface simple à utiliser.
+            Je suis Adam Moskatelo, développeur Front-End React. Fort d'une
+            expérience exigeante en logistique et en relation client
+            internationale, j'ai développé une grande rigueur et un sens de la
+            résolution de problèmes que j'applique aujourd'hui au code.
           </p>
 
           <p className="font-sans text-base leading-[1.75] text-muted">
-            Mon parcours de formation en intégration web m’a amené du HTML et du
-            CSS à la création d’applications React. Les projets pédagogiques
-            sont mon terrain pour pratiquer, me tromper et progresser.
+            Ma spécialité ? Créer des interfaces modernes et performantes avec
+            React et Tailwind CSS. À travers 12 projets concrets, dont le
+            développement complet du Front-End de l'application de location
+            Kasa, j'ai appris à concevoir des architectures scalables tout en
+            garantissant des scores Lighthouse parfaits en accessibilité et SEO.
           </p>
 
           <p className="font-sans text-base leading-[1.75] text-muted">
-            Mon approche est pragmatique : des composants réutilisables, une
-            structure sémantique et une attention à l’accessibilité comme au
-            référencement, dès la conception.
+            Mon approche est pragmatique : je conçois des composants
+            réutilisables et maintiens une structure sémantique stricte. Mon
+            objectif aujourd'hui est d'intégrer une équipe tech, en présentiel
+            dans la région de Split ou en full-remote, pour consolider mes bases
+            et continuer à apprendre au contact de développeurs expérimentés.
           </p>
         </div>
 
@@ -38,7 +44,7 @@ export default function AboutPitch() {
         <div className="flex flex-col gap-6 lg:col-span-5">
           <div className="flex flex-col gap-3 rounded-xl border border-line bg-surface p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <TbRefresh className="size-5 text-brand" />
+              <TbRefresh aria-hidden="true" className="size-5 text-brand" />
               <h3 className="font-mono text-base font-bold text-ink">
                 Agile dans la méthode
               </h3>
@@ -51,7 +57,7 @@ export default function AboutPitch() {
 
           <div className="flex flex-col gap-3 rounded-xl border border-line bg-surface p-6 shadow-sm">
             <div className="flex items-center gap-3">
-              <TbChecklist className="size-5 text-brand" />
+              <TbChecklist aria-hidden="true" className="size-5 text-brand" />
               <h3 className="font-mono text-base font-bold text-ink">
                 Rigoureux dans le détail
               </h3>

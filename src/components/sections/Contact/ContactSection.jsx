@@ -31,7 +31,10 @@ export default function ContactSection() {
 
           {/* Statut d'écoute */}
           <div className="flex items-center gap-3">
-            <FiMessageSquare className="size-4 shrink-0 text-accent" />
+            <FiMessageSquare
+              aria-hidden="true"
+              className="size-4 shrink-0 text-accent"
+            />
             <span className="font-mono text-sm font-medium text-accent">
               À l’écoute d’opportunités junior
             </span>
@@ -45,20 +48,20 @@ export default function ContactSection() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-mono text-sm text-brand underline underline-offset-4 transition-colors hover:text-ink"
             >
-              <FiGithub className="size-4" />
+              <FiGithub aria-hidden="true" className="size-4" />
               GitHub
-              <FiArrowUpRight className="size-3.5" />
+              <FiArrowUpRight aria-hidden="true" className="size-3.5" />
             </a>
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/adam-moskatelo-3144b244b/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-mono text-sm text-brand underline underline-offset-4 transition-colors hover:text-ink"
             >
-              <FiLinkedin className="size-4" />
+              <FiLinkedin aria-hidden="true" className="size-4" />
               LinkedIn
-              <FiArrowUpRight className="size-3.5" />
+              <FiArrowUpRight aria-hidden="true" className="size-3.5" />
             </a>
           </div>
         </div>

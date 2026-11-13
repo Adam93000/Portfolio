@@ -3,7 +3,7 @@ import Navigation from "../Navigation";
 
 export default function Header() {
   return (
-    <header className="flex flex-col gap-5 border-b border-line px-6 pt-6 pb-4 md:px-10 lg:h-26 lg:flex-row lg:items-center lg:justify-between lg:px-22 lg:py-0">
+    <header role="banner" className="flex flex-col gap-5 border-b border-line px-6 pt-6 pb-4 md:px-10 lg:h-26 lg:flex-row lg:items-center lg:justify-between lg:px-22 lg:py-0">
       {/* Disposition mobile : logo et bouton d'action regroupés ; disposition desktop : éléments répartis horizontalement */}
       <div className="flex items-center justify-between lg:contents">
         <a
@@ -18,7 +18,7 @@ export default function Header() {
           className="flex h-13 items-center justify-center gap-3 rounded-md border border-accent bg-accent px-5 font-sans text-[15px] font-semibold text-accent-ink transition-opacity hover:opacity-90 lg:order-3"
         >
           Me contacter
-          <FiArrowUpRight className="size-5" />
+          <FiArrowUpRight aria-hidden="true" className="size-5" />
         </a>
       </div>
 

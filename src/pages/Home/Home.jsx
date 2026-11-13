@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="page-home">
       <Header />
-      <main>
+      <main id="main-content" role="main">
         <HeroSection />
         <AboutPitch />
         <SkillsSection />

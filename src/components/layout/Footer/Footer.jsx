@@ -1,6 +1,6 @@
 export default function Footer({ onOpenLegal }) {
   return (
-    <footer className="border-t border-line px-6 py-12 md:px-10 lg:px-22 lg:py-16">
+    <footer role="contentinfo" className="border-t border-line px-6 py-12 md:px-10 lg:px-22 lg:py-16">
       <div className="flex flex-col gap-8">
         {/* Ligne principale : Signature à gauche, Localisation & Mentions à droite */}
         <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">

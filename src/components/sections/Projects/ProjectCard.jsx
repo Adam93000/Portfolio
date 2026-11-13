@@ -61,7 +61,7 @@ export default function ProjectCard({ project }) {
             rel="noopener noreferrer"
             className={linkClass}
           >
-            <FiGithub className="size-[18px]" />
+            <FiGithub aria-hidden="true" className="size-[18px]" />
             GitHub
           </a>
           {links.demo && (
@@ -72,7 +72,7 @@ export default function ProjectCard({ project }) {
               className={linkClass}
             >
               Live Demo
-              <FiArrowUpRight className="size-[18px]" />
+              <FiArrowUpRight aria-hidden="true" className="size-[18px]" />
             </a>
           )}
         </div>

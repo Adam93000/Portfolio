@@ -12,7 +12,7 @@ export default function ProjectsSection() {
         number="03"
         label="Projets"
         title="De la pratique au concret."
-        icon={<TbFolderCode className="size-5" />}
+        icon={<TbFolderCode aria-hidden="true" className="size-5" />}
         intro="Une sélection de projets pédagogiques : des besoins réalistes, des choix techniques expliqués et du code à explorer."
       />
       <ProjectGallery />

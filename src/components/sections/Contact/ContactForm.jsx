@@ -98,7 +98,7 @@ export default function ContactForm() {
         className="flex h-13 w-full items-center justify-center gap-3 rounded-lg border border-accent bg-accent font-sans text-[15px] font-semibold text-accent-ink transition-opacity hover:opacity-90"
       >
         Envoyer
-        <FiSend className="size-4" />
+        <FiSend aria-hidden="true" className="size-4" />
       </button>
 
       <p className="text-center font-sans text-xs text-muted/60 sm:text-left">
